@@ -1,6 +1,6 @@
 <?php
 
-require_once('./prestashop/PrestaShop-webservice-lib-master/PSWebServiceLibrary.php');
+require_once('./PrestaShop-webservice-lib-master/PSWebServiceLibrary.php');
 
 try {
     // creating webservice access
