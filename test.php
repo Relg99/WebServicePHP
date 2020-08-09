@@ -4,7 +4,7 @@ require_once('./prestashop/PrestaShop-webservice-lib-master/PSWebServiceLibrary.
 
 try {
     // creating webservice access
-    $webService = new PrestaShopWebservice('localhost/prestashop', '51LGLPV1LTL934CMJREVA3RZ2ZPQASEG', false);
+    $webService = new PrestaShopWebservice('http://34.94.139.183/prestashop', '51LGLPV1LTL934CMJREVA3RZ2ZPQASEG', false);
  
     // call to retrieve all customers
     $xml = $webService->get(['resource' => 'customers']);
